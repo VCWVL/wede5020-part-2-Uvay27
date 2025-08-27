@@ -60,9 +60,6 @@ The goal is to create a **simple, functional, and easy to use** website using HT
 - [BT Games](https://www.btgames.co.za) – Inspiration for layout and products.  
 - [Visual Studio Code](https://code.visualstudio.com) – Code editor used.  
 - [GitHub Pages](https://pages.github.com) – Hosting platform.  
-
+- OpenAI. 2025. *ChatGPT (GPT-5)*. Assistance with writing the README.md file. Available at: https://chat.openai.com [Accessed 27 Aug. 2025].     
 ---
 
-## Notes
-- All images used are placeholders (student can replace with real ones).  
-- This is a **beginner project**, made to show understanding of HTML structure, navigation, and file organization.  
