@@ -1,49 +1,109 @@
+<!-- About page for Checkpoint Gaming -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Checkpoint - About Us</title>
+  <title>Checkpoint - About</title>
+
+  <!-- Link to external CSS for general styling -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Internal CSS specific to About page -->
   <style>
+    /* ------------------------- */
+    /* Body and page layout */
+    /* ------------------------- */
     body {
       font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
       background-color: #0d0d0d;
       color: #f2f2f2;
+      margin: 0;
+      padding: 0;
     }
-    header {
+
+    /* ------------------------- */
+    /* Header and navigation */
+    /* ------------------------- */
+    header, footer {
       background-color: #1a1a1a;
-      padding: 15px;
       text-align: center;
+      padding: 15px;
     }
+
     nav a {
       color: #00bfff;
       margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
     }
+
     nav a:hover {
       color: #ff6600;
     }
+
+    /* ------------------------- */
+    /* Main content */
+    /* ------------------------- */
     main {
+      max-width: 900px; /* Center content and limit width */
+      margin: 20px auto;
       padding: 20px;
-      max-width: 800px;
-      margin: auto;
+      background-color: #1a1a1a;
+      border-radius: 10px;
+      text-align: left;
     }
+
     h2 {
+      text-align: center;
+      margin-bottom: 20px;
       color: #00bfff;
     }
-    footer {
-      background-color: #1a1a1a;
-      text-align: center;
-      padding: 15px;
-      margin-top: 20px;
+
+    h3 {
+      color: #ff6600;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 15px;
+      line-height: 1.6; /* Easier to read */
+    }
+
+    ul {
+      margin: 10px 0;
+      padding-left: 20px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    /* ------------------------- */
+    /* Responsive adjustments */
+    /* ------------------------- */
+    @media screen and (max-width: 768px) {
+      main {
+        padding: 15px;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      main {
+        padding: 10px;
+      }
+
+      nav a {
+        display: block;
+        margin: 8px 0;
+      }
     }
   </style>
 </head>
 <body>
-  <!-- Header with navigation -->
+  <!-- ------------------------- -->
+  <!-- Header Section -->
+  <!-- ------------------------- -->
   <header>
     <h1>Checkpoint Gaming</h1>
     <nav>
@@ -55,33 +115,72 @@
     </nav>
   </header>
 
-  <!-- Main content -->
+  <!-- ------------------------- -->
+  <!-- Main Content Section -->
+  <!-- ------------------------- -->
   <main>
     <h2>About Us</h2>
-    <p>
-      Checkpoint is a South African-based retail gaming store founded in 2018. 
-      We provide gamers with access to the latest consoles, games, accessories, and collectibles. 
-      Whether you’re a casual gamer, a competitive player, or a dedicated collector, Checkpoint has something for you.
-    </p>
 
-    <h3>Our Mission</h3>
-    <p>To deliver the best gaming products and experiences to gamers in South Africa.</p>
+    <!-- Introduction Section -->
+    <section>
+      <p><b>Checkpoint Gaming</b> started in 2015 with one goal: to make gaming fun, affordable, and exciting for everyone. Over the years, we’ve grown into one of the most trusted names in the South African gaming community.</p>
+      <p>Our mission is simple: <i>to create a fun and memorable gaming experience for all types of players</i>. We provide high-quality products, helpful customer service, and a welcoming community for gamers of all ages and levels.</p>
+      <p>Our vision is to be your <b>go-to gaming destination</b>, whether you are a casual gamer, an esports competitor, or just starting your gaming journey.</p>
+    </section>
 
-    <h3>Our Vision</h3>
-    <p>To become the country’s leading online gaming store and community hub.</p>
-    <!-- why choose us lists -->
-    <h3>Why Choose Us?</h3>
-    <ul>
-      <li>⚡ Fast service and reliable delivery</li>
-      <li>🎮 Wide range of consoles, games, and accessories</li>
-      <li>🛒 Easy online shopping with secure checkout</li>
-      <li>💬 Active community for gamers across South Africa</li>
-    </ul>
+    <!-- Why Choose Us Section -->
+    <section>
+      <h3>Why Choose Checkpoint Gaming?</h3>
+      <ul>
+        <li>🎮 Wide selection of consoles, games, and accessories</li>
+        <li>💻 Friendly staff who love gaming and can help you choose</li>
+        <li>⚡ Affordable prices with deals for loyal customers</li>
+        <li>🚚 Fast delivery to anywhere in South Africa</li>
+        <li>🤝 A community-focused store that supports local gamers</li>
+      </ul>
+    </section>
+
+    <!-- Our Values Section -->
+    <section>
+      <h3>Our Values</h3>
+      <ul>
+        <li><b>Passion:</b> Gaming is at the heart of everything we do.</li>
+        <li><b>Innovation:</b> We bring the newest and best gaming tech to you.</li>
+        <li><b>Community:</b> We support local gamers and esports events.</li>
+        <li><b>Trust:</b> We deliver quality products and honest service.</li>
+      </ul>
+    </section>
+
+    <!-- Website Sitemap Section -->
+    <section>
+      <h3>Website Sitemap</h3>
+      <p>Here’s a quick guide to our website so you can find what you need easily:</p>
+      <ul>
+        <li>🏠 Home – See the latest news, deals, and featured products</li>
+        <li>ℹ️ About – Learn more about who we are</li>
+        <li>🛍️ Products – Browse consoles, games, and accessories</li>
+        <li>🛒 Cart – Review and manage items you want to buy</li>
+        <li>📞 Contact – Send us a message or find our store locations</li>
+      </ul>
+    </section>
   </main>
 
-  <!-- Footer -->
+  <!-- ------------------------- -->
+  <!-- Footer Section -->
+  <!-- ------------------------- -->
   <footer>
     <p>&copy; 2025 Checkpoint Gaming | Designed by Uvay Harichand</p>
+    <p id="date"></p>
   </footer>
+
+  <!-- ------------------------- -->
+  <!-- JavaScript Section -->
+  <!-- ------------------------- -->
+  <script>
+    // Optional: show current year dynamically in footer
+    document.getElementById('date').textContent = "Current Year: " + new Date().getFullYear();
+  </script>
 </body>
 </html>
+
+
